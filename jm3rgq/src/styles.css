@@ -1,0 +1,36 @@
+.App {
+  padding: 50px;
+}
+* {
+  font-family: sans-serif;
+  background-color: #b6b6b6;
+}
+.mdiv > .author > p {
+  color: rgb(26, 25, 25);
+  font-size: 13px;
+  margin-right: 10px;
+}
+.mdiv h3 {
+  color: rgb(12, 11, 11);
+}
+.reply {
+  display: flex;
+  color: hsl(0, 1%, 43%);
+  margin-top: -20px;
+}
+
+.reply p {
+  margin-right: 10px;
+}
+.reply > div {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+}
+.reply > div > div {
+  display: flex;
+}
+.mdiv > button {
+  background-color: blanchedalmond;
+  border: none;
+}
